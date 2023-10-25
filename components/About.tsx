@@ -22,10 +22,15 @@ const About = () => {
               </div>
 
               <div className="mt-5 max-w-3xl">
-                <p className="text-lg text-white dark:text-gray-400">
-                  Synergistic, Innovative and Agile Cagayan Valley is a
-                  consortium established through the HEIRIT-ReSEED Program which
-                  aims to strenghten the startup ecosystem in the region.
+                <p className=" text-white dark:text-gray-400">
+                  The Sysnergistic, Innovative and Agile Cagayan Valley (SINAG
+                  Cagayan Valley) is a consortium established through the Higher
+                  Education Institution Readiness for Innovation and
+                  Technopreneurship - Regional Startup Enablers for Ecosystem
+                  Development (HEIRIT-ReSEED) Program which aims to strengthen
+                  the startup ecosystem in the regions by providing funding
+                  support to PCIEERD-funded TBIs to lead in establishing and
+                  formalizing a Regional Startup Ecosystem Consortium.
                 </p>
               </div>
             </div>

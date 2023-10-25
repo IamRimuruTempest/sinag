@@ -11,7 +11,7 @@ const config: Config = {
     extend: {
       backgroundImage: {
         "hero-bg": "url('/Moa Signing.jpg')",
-        "about-bg": "url('/About Us.jpg')",
+        "about-bg": "url('/About Us v1.3.jpg')",
       },
     },
   },

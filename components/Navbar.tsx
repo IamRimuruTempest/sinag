@@ -61,25 +61,7 @@ const Navbar = () => {
                 href="#"
                 aria-current="page"
               >
-                Landing
-              </a>
-              <a
-                className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500"
-                href="#"
-              >
-                Account
-              </a>
-              <a
-                className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500"
-                href="#"
-              >
-                Work
-              </a>
-              <a
-                className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500"
-                href="#"
-              >
-                Blog
+                Home
               </a>
 
               <div className="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] sm:py-4">
@@ -87,7 +69,7 @@ const Navbar = () => {
                   type="button"
                   className="flex items-center w-full text-gray-500 hover:text-gray-400 font-medium dark:text-gray-400 dark:hover:text-gray-500 "
                 >
-                  Dropdown
+                  About Us
                   <svg
                     className="ml-2 w-2.5 h-2.5 text-gray-600"
                     width="16"
@@ -112,7 +94,7 @@ const Navbar = () => {
                   >
                     About
                   </a>
-                  <div className="hs-dropdown relative [--strategy:static] sm:[--strategy:absolute] [--adaptive:none] sm:[--trigger:hover]">
+                  {/* <div className="hs-dropdown relative [--strategy:static] sm:[--strategy:absolute] [--adaptive:none] sm:[--trigger:hover]">
                     <button
                       type="button"
                       className="w-full flex justify-between     items-center text-sm text-gray-800 rounded-md py-2 px-3 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300"
@@ -155,22 +137,41 @@ const Navbar = () => {
                         Team Account
                       </a>
                     </div>
-                  </div>
+                  </div> */}
 
                   <a
                     className="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300"
                     href="#"
                   >
-                    Downloads
+                    Our Team
                   </a>
                   <a
                     className="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300"
                     href="#"
                   >
-                    Team Account
+                    Our TWG
                   </a>
                 </div>
               </div>
+
+              <a
+                className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500"
+                href="#"
+              >
+                Account
+              </a>
+              <a
+                className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500"
+                href="#"
+              >
+                Work
+              </a>
+              <a
+                className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500"
+                href="#"
+              >
+                Blog
+              </a>
 
               <a
                 className="flex items-center gap-x-2 font-medium text-gray-500 hover:text-blue-600 sm:border-l sm:border-gray-300 sm:my-6 sm:pl-6 dark:border-gray-700 dark:text-gray-400 dark:hover:text-blue-500"
