@@ -1,7 +1,10 @@
 import Image from "next/image";
 const About = () => {
   return (
-    <div className=" bg-about-bg bg-auto bg-no-repeat bg-center grid content-center">
+    <div
+      className="bg-about-bg bg-auto bg-no-repeat bg-center grid content-center"
+      id="about"
+    >
       <div className="relative overflow-hidden ">
         <div className="relative z-10">
           <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-16">
@@ -23,14 +26,11 @@ const About = () => {
 
               <div className="mt-5 max-w-3xl">
                 <p className=" text-white dark:text-gray-400">
-                  The Sysnergistic, Innovative and Agile Cagayan Valley (SINAG
-                  Cagayan Valley) is a consortium established through the Higher
-                  Education Institution Readiness for Innovation and
-                  Technopreneurship - Regional Startup Enablers for Ecosystem
-                  Development (HEIRIT-ReSEED) Program which aims to strengthen
-                  the startup ecosystem in the regions by providing funding
-                  support to PCIEERD-funded TBIs to lead in establishing and
-                  formalizing a Regional Startup Ecosystem Consortium.
+                  SINAG Cagayan Valley aims to establish a Regional Startup
+                  Development platform to build and strengthen the startup
+                  ecosystem in the region and to create a Regional Ecosystem
+                  Development Roadmap that will serve as a guide in improving
+                  the startup ecosystem conditions in the region.
                 </p>
               </div>
             </div>

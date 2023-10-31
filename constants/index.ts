@@ -85,3 +85,81 @@ export const PARTNERS = [
     alt: "NVSU SABATAN",
   },
 ];
+
+export const OBJECTIVES = [
+  {
+    image: "/Moa Signing.jpg",
+    title: "Titile Here",
+    description:
+      "Unity's inside sales team drives 80% of its revenue with Preline",
+  },
+  {
+    image: "/Moa Signing.jpg",
+    title: "Titile Here",
+    description:
+      "Unity's inside sales team drives 80% of its revenue with Preline",
+  },
+  {
+    image: "/Moa Signing.jpg",
+    title: "Titile Here",
+    description:
+      "Unity's inside sales team drives 80% of its revenue with Preline",
+  },
+  {
+    image: "/Moa Signing.jpg",
+    title: "Titile Here",
+    description:
+      "Unity's inside sales team drives 80% of its revenue with Preline",
+  },
+  {
+    image: "/Moa Signing.jpg",
+    title: "Titile Here",
+    description:
+      "Unity's inside sales team drives 80% of its revenue with Preline",
+  },
+  {
+    image: "/Moa Signing.jpg",
+    title: "Titile Here",
+    description:
+      "Unity's inside sales team drives 80% of its revenue with Preline",
+  },
+];
+
+export const FAQS = [
+  {
+    question:
+      "What is SINAG Cagayan Valley, and what is its primary objective?",
+    answer:
+      "SINAG Cagayan Valley is a consortium with the primary objective of establishing a Regional Startup Development platform to foster and enhance the startup ecosystem in the Cagayan Valley region. Its focus is on creating a Regional Ecosystem Development Roadmap to guide the growth and improvement of the local startup ecosystem.",
+  },
+  {
+    question:
+      "How does SINAG Cagayan Valley plan to build and strengthen the startup ecosystem in the region?",
+    answer:
+      "SINAG Cagayan Valley plans to strengthen the startup ecosystem by providing support, resources, and guidance to startups and entrepreneurs in the region. This includes organizing events, offering mentorship and training programs, and facilitating networking and collaboration opportunities.",
+  },
+  {
+    question:
+      "What is a Regional Ecosystem Development Roadmap, and why is it important for the startup ecosystem?",
+    answer:
+      "A Regional Ecosystem Development Roadmap is a strategic plan that outlines the steps and actions needed to improve and grow the local startup ecosystem. It is essential for providing direction, setting goals, and measuring progress in ecosystem development.",
+  },
+  {
+    question:
+      "How can startups benefit from the Regional Startup Development platform?",
+    answer:
+      "Startups can benefit from the platform by gaining access to resources, mentorship, networking opportunities, and potential funding sources. The platform aims to create a supportive environment for startups to grow and thrive.",
+  },
+  {
+    question:
+      "Who can participate or get involved in the startup ecosystem development efforts in Cagayan Valley?",
+    answer:
+      "Startups, entrepreneurs, investors, local businesses, educational institutions, and other stakeholders interested in the development of the startup ecosystem in Cagayan Valley are encouraged to participate and get involved.",
+  },
+  {
+    question:
+      "What specific programs or initiatives will SINAG Cagayan Valley offer to support startups in the region?",
+    answer:
+      "SINAG Cagayan Valley may offer various programs, including incubation and acceleration programs, workshops, and networking events to support startups. The specific programs may be detailed on their website or through official communications.",
+  },
+];

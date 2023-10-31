@@ -3,6 +3,7 @@ import Partners from "@/components/Partners";
 import Works from "@/components/Works";
 import About from "@/components/About";
 import Faq from "@/components/Faq";
+import Subscriber from "@/components/Subscriber";
 export default function Home() {
   return (
     <>
@@ -11,6 +12,7 @@ export default function Home() {
       <About />
       <Works />
       <Faq />
+      <Subscriber />
     </>
   );
 }
