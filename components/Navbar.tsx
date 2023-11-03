@@ -16,7 +16,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between">
             <a
               className="flex-none text-xl font-semibold dark:text-white"
-              href="#"
+              href="/"
               aria-label="Brand"
             >
               SINAG CAGAYAN VALLEY
@@ -58,16 +58,28 @@ const Navbar = () => {
             className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block"
           >
             <div className="flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:pl-7">
-              <a
+              {/* <a
                 className="font-medium text-blue-600 sm:py-6 dark:text-blue-500"
                 href="#"
                 aria-current="page"
               >
                 Home
-              </a>
+              </a> */}
 
-               <Link href="/about" className="text-gray-500 hover:text-gray-400 font-medium dark:text-gray-400 dark:hover:text-gray-500">Hello</Link>
-              
+              <Link
+                href="/"
+                className="font-medium text-blue-600 sm:py-6 dark:text-blue-500"
+                aria-current="page"
+              >
+                Home
+              </Link>
+
+              {/* <Link
+                href="/about"
+                className="text-gray-500 hover:text-gray-400 font-medium dark:text-gray-400 dark:hover:text-gray-500"
+              >
+                Hello
+              </Link> */}
 
               <div className="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] sm:py-4">
                 <button
@@ -95,7 +107,7 @@ const Navbar = () => {
                 <div className="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 md:w-80 hidden z-10 bg-white md:shadow-2xl rounded-lg py-2 md:p-2 dark:bg-gray-800 dark:divide-gray-700 before:absolute top-full before:-top-5 before:left-0 before:w-full before:h-5">
                   <a
                     className="inline-flex gap-x-5 w-full p-4 text-gray-600 rounded-md hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300"
-                    href="#about"
+                    href="/about"
                   >
                     <svg
                       className="flex-shrink-0 w-5 h-5 mt-1"
@@ -110,7 +122,7 @@ const Navbar = () => {
                     </svg>
                     <div className="grow">
                       <span className="block font-semibold mb-1 text-gray-800 dark:text-gray-200">
-                        Data
+                        About Us
                       </span>
                       How you get the most accurate and up-to-date data
                     </div>
@@ -120,7 +132,7 @@ const Navbar = () => {
 
                   <a
                     className="inline-flex gap-x-5 w-full p-4 text-gray-600 rounded-md hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300"
-                    href="#"
+                    href="/team"
                   >
                     <svg
                       className="flex-shrink-0 w-5 h-5 mt-1"
@@ -163,7 +175,7 @@ const Navbar = () => {
                     </svg>
                     <div className="grow">
                       <span className="block font-semibold mb-1 text-gray-800 dark:text-gray-200">
-                        Blog
+                        Partners
                       </span>
                       The latest news, feature releases, and how to grow with
                       data
