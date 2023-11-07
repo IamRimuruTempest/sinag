@@ -57,7 +57,7 @@ const Navbar = () => {
             id="navbar-collapse-with-animation"
             className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block"
           >
-            <div className="flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:pl-7">
+            <div className="uppercase flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:pl-7">
               {/* <a
                 className="font-medium text-blue-600 sm:py-6 dark:text-blue-500"
                 href="#"
@@ -81,10 +81,10 @@ const Navbar = () => {
                 Hello
               </Link> */}
 
-              <div className="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] sm:py-4">
+              <div className=" hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] sm:py-4">
                 <button
                   type="button"
-                  className="flex items-center w-full text-gray-500 hover:text-gray-400 font-medium dark:text-gray-400 dark:hover:text-gray-500 "
+                  className="uppercase flex items-center w-full text-gray-500 hover:text-gray-400 font-medium dark:text-gray-400 dark:hover:text-gray-500 "
                 >
                   About
                   <svg
@@ -160,7 +160,7 @@ const Navbar = () => {
 
                   <a
                     className="inline-flex gap-x-5 w-full p-4 text-gray-600 rounded-md hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300"
-                    href="#"
+                    href="/partners"
                   >
                     <svg
                       className="flex-shrink-0 w-5 h-5 mt-1"
@@ -186,21 +186,33 @@ const Navbar = () => {
 
               <a
                 className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500"
-                href="#"
+                href="/partners"
               >
-                Account
+                Partners
               </a>
               <a
                 className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500"
-                href="#"
+                href="/startups"
               >
-                Work
+                Startups
               </a>
               <a
                 className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500"
-                href="#"
+                href="/blogs"
+              >
+                News
+              </a>
+              <a
+                className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500"
+                href="/blogs"
               >
                 Blog
+              </a>
+              <a
+                className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500"
+                href="/contacts"
+              >
+                Contact Us
               </a>
 
               <a

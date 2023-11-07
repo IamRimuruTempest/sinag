@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "SINAG CAGAYAN VALLEY",
-  description: "SINAG Cagayan Valley Consurtiom",
+  description: "SINAG Cagayan Valley Consortium",
 };
 
 export default function RootLayout({
